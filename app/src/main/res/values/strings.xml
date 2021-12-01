@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application 1</string>
+
+    <string-array name="List_truyen">
+        <item>Con gái</item>
+        <item>Con nít</item>
+        <item>Con trai</item>
+        <item>Công sở</item>
+        <item>Cười 18</item>
+        <item>Cực hài</item>
+        <item>Dân gian</item>
+        <item>Gia đình</item>
+        <item>Giao thông</item>
+        <item>Học sinh</item>
+        <item>Học trò cười</item>
+        <item>Khoa học</item>
+        <item>Nghề nghiệp</item>
+        <item>Người lớn</item>
+        <item>Nhà hàng</item>
+        <item>Say xỉn</item>
+        <item>Tam quốc</item>
+        <item>Thơ ca cười</item>
+        <item>Thơ vui</item>
+        <item>Thế giới</item>
+        <item>Tiếu lâm</item>
+        <item>Truyện bựa</item>
+        <item>Trạng Quỳnh</item>
+        <item>Tây du ký</item>
+        <item>Tình yêu</item>
+        <item>Tôn giáo</item>
+        <item>Việt Nam và Thế giới</item>
+        <item>Vova</item>
+        <item>Y tế</item>
+    </string-array>
+
+</resources>

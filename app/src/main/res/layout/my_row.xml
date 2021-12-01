@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/layoutItem"                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+
+>
+
+    <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E3DCE4">
+
+
+            <ImageView
+
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/congai"
+                    android:id="@+id/myImageView"
+
+            />
+            <TextView
+                    android:text="title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_item1"
+                    android:layout_marginTop="40dp"
+                    tools:layout_editor_absoluteY="16dp"
+                    tools:layout_editor_absoluteX="276dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
