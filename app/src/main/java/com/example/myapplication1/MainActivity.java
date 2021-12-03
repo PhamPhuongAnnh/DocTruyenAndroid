@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
 
         s1 = getResources().getStringArray(R.array.List_truyen);
-        s2 = getResources().getStringArray(R.array.decription);
         Myadapter myAdapter = new Myadapter(this, s1,s2,images);
 
         recyclerView.setAdapter(myAdapter);
