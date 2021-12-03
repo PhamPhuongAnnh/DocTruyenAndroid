@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Myadapter myAdapter = new Myadapter(this, s1,s2,images);
 
         recyclerView.setAdapter(myAdapter);
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }
