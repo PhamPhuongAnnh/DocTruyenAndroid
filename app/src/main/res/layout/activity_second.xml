@@ -9,19 +9,9 @@
         android:id="@+id/nainLayout">
 
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/congai"
-            android:id="@+id/imageView"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="2dp"
-            app:layout_constraintHorizontal_bias="0.006"/>
     <TextView
             android:text="TextView"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2" android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true" android:layout_marginRight="89dp" android:layout_marginEnd="89dp"/>
+            android:layout_height="wrap_content" />
 </RelativeLayout>

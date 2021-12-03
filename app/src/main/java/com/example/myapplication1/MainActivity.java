@@ -21,12 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerView);
-
+        s2 = getResources().getStringArray(R.array.ConTent_Truyen);
         s1 = getResources().getStringArray(R.array.List_truyen);
         Myadapter myAdapter = new Myadapter(this, s1,s2,images);
-
         recyclerView.setAdapter(myAdapter);
-
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }
